@@ -1,0 +1,37 @@
+.header {
+  /* Сначала создадим flex-контекст */
+  display: flex;
+
+  /* Теперь определим направление потока и хотим ли мы, чтобы элементы
+  переносились на новую строку
+   * Помните, что это тоже самое, что и:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Теперь определим, как будет распределяться пространство */
+  justify-content: space-around;
+  border: 6px solid #ccc;}
+figure{
+  width: 50px;
+  height: 50px;}
+
+h1 {
+  font-family: 'Charm', cursive;
+}
+.picture{
+  width: 935px;
+  margin: auto;
+}
+
+.line{
+  width: 935px;
+  display: flex;
+  justify-content: space-between;
+}
+.line img {
+  width: 293px;
+  height: 293px;
+  margin: 5px;
+}
